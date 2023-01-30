@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300&display=swap");
+@font-face {
+  font-family: myFirstFont;
+  src: url(./Assets/FontsFree-Net-NewYorkExtraLargeMedium.ttf);
+}
+@font-face {
+  font-family: mySecondFont;
+  src: url(./Assets/SFPRODISPLAYMEDIUM.OTF);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Navbar */
+.logo {
+  height: 37px;
+  width: 250px;
+  margin-top: 5px;
+  margin-left: 1em;
+}
+.lastnav {
+  margin-right: 6em;
+}
+
+.nav-link {
+  font-family: myFirstFont;
+  padding: 5px;
+  margin-left: 2em;
+  font-size: 1.1rem;
+}
+.nav-link:hover {
+  box-shadow: inset 100px 0 0 0 #fffb09;
+  color: rgb(5, 134, 255);
+}
+
+/* <!-- Second Section of Heading and Image --> */
+.sec2mainh {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: mySecondFont;
+  color: #000000;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sec2mainp {
+  text-align: center;
+  font-size: 18px;
+  margin-left: 5px;
+}
+/* Yellow Image */
+
+.yellowimg {
+  margin: 3px 0px;
+  padding: 0px 0px;
+  width: 100%;
+  height: 94%;
+}
+
+/* Just Imaage Section  */
+@media screen and (max-width: 480px) {
+  .teext {
+    font-size: 10px;
+    font-weight: bolder;
+    padding: 5px 0px;
+  }
+  .small {
+    font-size: 6px;
+    padding: 5px 0px;
+  }
+  .ni {
+    margin-top: 10px;
+  }
+  .rnd {
+    padding-top: 1em;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .rnd {
+    margin: 0px auto;
+    padding: 0px;
+  }
+  .iconset {
+    margin-left: 1.1em;
+  }
+}
+/* Image section Below things */
+
+.iconset {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nextp {
+  margin: 24px 0px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+/* Dragon image Section */
+.drangonimg {
+  width: 100%;
+  height: 500px;
+}
+.drangonp {
+  text-align: center;
+  font-size: 13px;
+  font-family: mySecondFont;
+  padding-bottom: 1em;
+}
+
+/* dragon Image Below Section */
+
+
+.ceo{
+    display: flex;
+
+}
+.ceoimg{
+    margin: 2px 5px;
+}
+
+.eyeimg{
+    height: 27px;
+    width: 69px;
+}
+
+.eyehr{
+    border: 1px solid black;
+}
+
+
+
+/* Section of card starts */
+
+.card{
+  cursor: pointer;
+  border: none;
+  padding: 2px 5px;
+}
+
+.flexx{
+ margin-top: 10px;
+}
+
+
+.cardss{
+  margin: 10px auto;
+  width: 335px;
+  height: 194px;
+}
+/* Section of card end */
+
+/* News Letter Section  */
+
+.flid{
+  margin-top: 10px;
+  padding-bottom: 3em;
+border: 1px solid black;
+ border-top: 9px solid black;
+ margin-bottom: 1.5em;
+}
+.flid input{
+  padding: 5PX 10px;
+  padding-right: 1em;
+  display: inline;
+}
+
+
+.signupp{
+  padding: 5PX 15px;
+  margin-left: -4px;
+  background-color: #000000;
+  color: aliceblue;
+}
+
+
+.plbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Footer Start */
+
+
+
+
+.footer{
+  
+  width: 100%;
+  background-color: black;
+}
+.foott{
+  color: aliceblue;
+  
+  /* text-align: center; */
+}
+
+.footerimg{
+  text-align: center;
+  
+}
+
+.footerp{
+  margin-top: 10px;
+  margin-bottom: 11px;
+  font-family: myFirstFont;
+  /* text-align: center; */
+  
+}
+/* Footer Top Paragraph p */
+
+.fooottt{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.fbtn{
+  padding-top:10px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.ddd{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 8px;
+  color: white;
+  background-color: none;
+
+}
+
+
+
+/* Footer End */
