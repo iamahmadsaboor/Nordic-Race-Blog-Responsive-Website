@@ -31,8 +31,9 @@
   font-size: 1.1rem;
 }
 .nav-link:hover {
-  box-shadow: inset 100px 0 0 0 #fffb09;
-  color: rgb(5, 134, 255);
+  background-color: black;
+  color: white;
+  text-transform: capitalize;
 }
 
 /* <!-- Second Section of Heading and Image --> */
